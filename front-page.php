@@ -34,26 +34,47 @@ function executive_home_sections() {
 
 	echo '<h2 class="screen-reader-text">' . __( 'Main Content', 'executive-pro' ) . '</h2>';
 
-	genesis_widget_area( 'home-slider', array(
-		'before' => '<div class="home-slider widget-area">',
-		'after'  => '</div>',
-	) );
+
+genesis_widget_area( 'under-header-top', array(
+	'before' => '<div class="home-under-header-wrapper"><div class="home-under-header-top widget-area">',
+	'after'  => '</div>',
+) );
+
+genesis_widget_area( 'under-header-bottom', array(
+	'before' => '<div class="under-header-bottom widget-area">',
+	'after'  => '</div></div>',
+) );
+
+
+	echo '<h2 class= "cap-head">Capabilities</h2>';
 
 	genesis_widget_area( 'home-top', array(
 		'before' => '<div class="home-top widget-area">',
 		'after'  => '</div>',
 	) );
 
+	echo '<h2 class= "add-services">Additional Services</h2>';
+
+	genesis_widget_area( 'home-additional-services', array(
+		'before' => '<div class="home-additional-services widget-area">',
+		'after'  => '</div>',
+	) );
+
+
 	genesis_widget_area( 'home-cta', array(
 		'before' => '<div class="home-cta widget-area">',
 		'after'  => '</div>',
 	) );
 
-	genesis_widget_area( 'home-middle', array(
-		'before' => '<div class="home-middle widget-area">',
-		'after'  => '</div>',
-	) );
+genesis_widget_area( 'home-middle-left', array(
+	'before' => '<div class="home-middle-wrapper"><div class="home-top-left widget-area one-half first">',
+	'after'  => '</div>',
+) );
 
+genesis_widget_area( 'home-middle-right', array(
+	'before' => '<div class="home-middle-right widget-area one-half">',
+	'after'  => '</div></div>',
+) );
 }
 
 // Add body class to home page.
