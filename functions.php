@@ -60,7 +60,7 @@ function executive_load_scripts() {
 
 	wp_enqueue_style( 'dashicons' );
 
-	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Raleway:400,400i,700|Roboto:100,100i,500i,500', array(), CHILD_THEME_VERSION );
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 	wp_enqueue_script( 'executive-responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menus' . $suffix . '.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
@@ -161,12 +161,21 @@ add_theme_support( 'genesis-after-entry-widget-area' );
 remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
 add_action( 'genesis_after_entry', 'genesis_after_entry_widget_area', 5 );
 
-// Register widget areas.
+
 genesis_register_sidebar( array(
-	'id'          => 'home-slider',
-	'name'        => __( 'Home - Slider', 'executive-pro' ),
-	'description' => __( 'This is the slider section on the home page.', 'executive-pro' ),
+	'id'          => 'under-header-top',
+	'name'        => __( 'Home - Under Header Top', 'executive-pro' ),
+	'description' => __( 'This the top row under the Numerics logo where Title and Tag go.', 'executive-pro' ),
 ) );
+genesis_register_sidebar( array(
+	'id'          => 'under-header-bottom',
+	'name'        => __( 'Home - Under Header Bottom', 'executive-pro' ),
+	'description' => __( 'This is the second/bottom row under menu where image can go.', 'executive-pro' ),
+) );
+
+
+
+
 genesis_register_sidebar( array(
 	'id'          => 'home-top',
 	'name'        => __( 'Home - Top', 'executive-pro' ),
@@ -177,8 +186,71 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Home - Call To Action', 'executive-pro' ),
 	'description' => __( 'This is the call to action section on the home page.', 'executive-pro' ),
 ) );
+
+
 genesis_register_sidebar( array(
-	'id'          => 'home-middle',
-	'name'        => __( 'Home - Middle', 'executive-pro' ),
-	'description' => __( 'This is the middle section of the home page.', 'executive-pro' ),
+	'id'          => 'home-additional-services',
+	'name'        => __( 'Home - Additional Services', 'executive-pro' ),
+	'description' => __( 'This is the Additional Services area (Needs 3 widgets).', 'executive-pro' ),
 ) );
+
+
+
+genesis_register_sidebar( array(
+	'id'          => 'home-middle-left',
+	'name'        => __( 'Home - Middle Left', 'executive' ),
+	'description' => __( 'This is the bottom left section above footer.', 'executive-pro' ),
+) );
+
+genesis_register_sidebar( array(
+	'id'          => 'home-middle-right',
+	'name'        => __( 'Home - Middle Right', 'executive' ),
+	'description' => __( 'This is the bottom right section above footer.', 'executive-pro' ),
+) );
+
+//* Customize footer credits
+add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
+function sp_footer_creds_text() {
+echo '<div class="lwm_credits"><p>';
+echo 'Copyright &copy; ';
+echo date('Y');
+echo ' &middot; <a href="https://numericsunlimited.com">Numerics Unlimited</a> ';
+echo '</p></div>';
+}
+
+//* Remove the entry header markup (requires HTML5 theme support)
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+
+//* Customize the entry meta in the entry header (requires HTML5 theme support)
+add_filter( 'genesis_post_info', 'sp_post_info_filter' );
+function sp_post_info_filter($post_info) {
+	$post_info = '[post_date]';
+	return $post_info;
+}
+
+//*Sridhar Code for phone at top on responsive
+
+// Register before-header widget area.
+genesis_register_widget_area(
+    array(
+        'id'          => 'before-header',
+        'name'        => __( 'Before Header', 'my-theme-text-domain' ),
+        'description' => __( 'Appears above site header.', 'my-theme-text-domain' ),
+    )
+);
+
+add_action( 'genesis_before_header', 'custom_above_header' );
+/**
+ * Display before-header widget area above site header.
+ */
+function custom_above_header() {
+    genesis_widget_area( 'before-header', array(
+        'before'    => '<div class="before-header widget-area"><div class="wrap">',
+        'after'     => '</div></div>',
+    ) );
+}
+
+
+
+
