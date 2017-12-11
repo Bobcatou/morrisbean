@@ -214,7 +214,7 @@ function sp_footer_creds_text() {
 echo '<div class="lwm_credits"><p>';
 echo 'Copyright &copy; ';
 echo date('Y');
-echo ' &middot; <a href="https://numericsunlimited.com">Numerics Unlimited</a> ';
+echo ' &middot; <a href="https://www.morrisbean.com">Morris Bean & Company</a> ';
 echo '</p></div>';
 }
 
