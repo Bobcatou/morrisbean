@@ -596,6 +596,14 @@ td {
 	max-width: 1140px;
 }
 
+/* Homepage only width adjustment */
+
+.home .site-container {
+	margin: 0 auto;
+	max-width: 100%;
+}	
+/* End */
+
 .executive-pro-landing .site-container {
 	max-width: 800px;
 }
@@ -1904,6 +1912,22 @@ img#wpstats {
 
 .site-footer p {
 	margin: 0;
+}
+
+
+/* LWM Changes December 11, 2017  12:41 PM */
+
+/* Home Page */
+.under-header-bottom.widget-area img {
+    width: 100%;
+}
+
+.mbstatement, h2.cap-head, h2.add-services {
+	text-align: center;
+}
+
+.wrap {
+	background: #fff;
 }
 
 
