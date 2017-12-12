@@ -1926,9 +1926,17 @@ img#wpstats {
 	text-align: center;
 }
 
-.wrap {
-	background: #fff;
+
+
+/* Footer Mods */
+/* Location footer widget */
+.locale p {
+	line-height: 22px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-size: 1.4rem;	
 }
+
 
 
 /* Media Queries
