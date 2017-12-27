@@ -1945,7 +1945,13 @@ img#wpstats {
 
 }
 
+/* as9100 requirements on front page */
 
+
+p.as9100 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
