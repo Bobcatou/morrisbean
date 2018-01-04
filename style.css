@@ -1997,6 +1997,55 @@ header.site-header {
     padding: 15px 0;
 }
 
+/* Additional Services section */
+h2.add-services {
+    border-top: solid 1px #333;
+    padding-top: 30px;
+}
+
+
+/* Home Page
+--------------------------------------------- */
+
+
+.home-additional-services {
+	background-color: #fff;
+	clear: both;
+	overflow: hidden;
+	padding: 20px 30px 0;
+}
+
+.home-additional-services.widget-area {
+    padding-bottom: 40px;
+}
+
+
+.home-additional-services .widget {
+	float: left;
+	padding: 0 2.8%;
+	width: 33.33333333333%;
+}
+
+
+.home-additional-services:nth-of-type(3n+1) {
+	clear: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
