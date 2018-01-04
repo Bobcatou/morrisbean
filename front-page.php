@@ -53,7 +53,6 @@ genesis_widget_area( 'under-header-bottom', array(
 		'after'  => '</div>',
 	) );
 
-	echo '<h2 class= "add-services">Additional Services</h2>';
 
 	genesis_widget_area( 'home-additional-services', array(
 		'before' => '<div class="home-additional-services widget-area">',
