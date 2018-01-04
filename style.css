@@ -1262,6 +1262,9 @@ img#wpstats {
 	display: block;
 	padding: 16px 20px;
 	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
 }
 
 .genesis-nav-menu a:focus,
@@ -1381,7 +1384,9 @@ img#wpstats {
 }
 
 .site-header .genesis-nav-menu a {
-	padding: 38px 18px 10px;
+/*	padding: 38px 18px 10px; */
+	padding: 40px 13px 15px;
+
 }
 
 .site-header .sub-menu {
@@ -1979,9 +1984,17 @@ p.as9100 {
     transform: scaleX(0.85);
 }
 
+/* Header adjustments */
+header.site-header {
+    padding: 0 30px;
+}
 
+/* Banner/Company Name */
 
-
+.home-under-header-top.widget-area {
+    background: #ffa53b;
+    padding: 15px 0;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
