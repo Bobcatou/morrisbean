@@ -1431,7 +1431,7 @@ img#wpstats {
 	background-color: #fff;
 	clear: both;
 	overflow: hidden;
-	padding: 60px 30px 0;
+	padding: 20px 30px 0;
 }
 
 .home-middle .widget,
@@ -1929,6 +1929,7 @@ img#wpstats {
 
 .mbstatement, h2.cap-head, h2.add-services {
 	text-align: center;
+	margin: 20px 0 0;
 }
 
 
