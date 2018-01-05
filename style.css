@@ -197,7 +197,7 @@ textarea:focus,
 }
 
 a {
-	color: #64c9ea;
+	color: #222;
 	text-decoration: none;
 }
 
@@ -2038,7 +2038,9 @@ section#custom_html-10.widget ul > li {
     padding: 0 0 0 80px;
 }
 
-
+section#custom_html-10 a {
+	font-weight: 700;
+}
 
 
 
