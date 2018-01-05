@@ -1276,13 +1276,14 @@ img#wpstats {
 .genesis-nav-menu .current-menu-item > a:focus,
 .genesis-nav-menu .current-menu-item > a:hover {
 	background-color: #fff;
-	color: #666;
+	color: #ffa53b;
 	text-decoration: none;
 }
 
 .genesis-nav-menu .current-menu-item > a {
-	background-color: #64c9ea;
-	color: #fff;
+	background-color: #fff;
+	color: #ffa53b;
+	font-weight: 500;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -1316,7 +1317,7 @@ img#wpstats {
 .genesis-nav-menu .sub-menu a:focus,
 .genesis-nav-menu .sub-menu a:hover {
 	background-color: #f5f5f5;
-	color: #222;
+	color: #ffa53b;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
@@ -2038,7 +2039,7 @@ section#custom_html-10.widget ul > li {
     padding: 0 0 0 80px;
 }
 
-section#custom_html-10 a {
+section#custom_html-10 a, .top-area li a {
 	font-weight: 700;
 }
 
