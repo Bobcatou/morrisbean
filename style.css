@@ -2045,8 +2045,28 @@ section#custom_html-10 a, .top-area li a {
 }
 
 
+/* Tabbed pages */
+.button {
+	background:#ffa53b !important;
+}
+.button a {
+	color:#fff;
+	font-size: 21px;
+	font-weight: 300 !important;
+}
+.button h6 {
+	margin-bottom: 0;
+}
 
 
+
+.post-18 .button, .entry-content .button {
+	padding: 10px;
+}
+
+div#wpsm_tab_container_96 a {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
