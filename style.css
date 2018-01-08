@@ -1307,8 +1307,9 @@ img#wpstats {
 	border: 1px solid #f5f5f5;
 	border-top: none;
 	color: #666;
-	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 20px;
+	font-size: 2rem;
+	line-height: 24px;
 	padding: 12px 18px;
 	position: relative;
 	width: 148px;
@@ -2042,11 +2043,6 @@ section#custom_html-10.widget ul > li {
 section#custom_html-10 a, .top-area li a {
 	font-weight: 700;
 }
-
-
-
-
-
 
 
 
