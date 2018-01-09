@@ -2006,6 +2006,31 @@ h2.add-services {
 }
 
 
+/* Quality Process Test */
+
+h2.qualityp {
+    border-top: 1px solid #222;
+    padding-top: 30px;
+}
+
+/* Employment Section */
+#media_image-4 h3.widgettitle.widget-title {
+    text-align: center;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+}
+
+/* Privacy Policy */
+#media_image-4 img:hover {
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
 /* Home Page
 --------------------------------------------- */
 
@@ -2067,6 +2092,43 @@ section#custom_html-10 a, .top-area li a {
 div#wpsm_tab_container_96 a {
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* Map Page */
+
+.one-third.first.locale-map-page {
+	margin-top: 9%;
+}
+
+
+/* Quote Menu Tab */
+
+li#menu-item-38 span {
+    background: #ffa53b;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Forms Styling */
+div#gform_wrapper_3, div#gform_wrapper_2 {
+    padding: 10px;
+    border: 1px solid #535353;
+}
+
+form#gform_1 {
+    border: 1px solid #535353;
+    padding: 10px;
+}
+
+
+#gform_1 .gform_footer.top_label, #gform_1 .gfield_description {
+	text-align: center;
+}
+
+
+
+
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
