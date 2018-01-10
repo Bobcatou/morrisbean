@@ -2006,12 +2006,13 @@ h2.add-services {
 }
 
 
-/* Quality Process Test */
+/* Quality Statement */
 
-h2.qualityp {
-    border-top: 1px solid #222;
-    padding-top: 30px;
+h3.quality-statement {
+	text-align: center;
 }
+
+
 
 /* Employment Section */
 #media_image-4 h3.widgettitle.widget-title {
@@ -2122,7 +2123,7 @@ form#gform_1 {
 }
 
 
-#gform_1 .gform_footer.top_label, #gform_1 .gfield_description {
+#gform_1 .gform_footer.top_label, #gform_1 .gfield_description, #gform_2 .gform_footer.top_label {
 	text-align: center;
 }
 
