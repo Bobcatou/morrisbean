@@ -2023,6 +2023,14 @@ h3.quality-statement {
     text-transform: capitalize;
 }
 
+section#media_image-4 {
+    background: #fff;
+    border: solid #535353 1px;
+    margin-top: 50px;
+
+aside#genesis-sidebar-primary {
+	background: #fff;
+}
 /* Privacy Policy */
 #media_image-4 img:hover {
     -webkit-filter: brightness(90%);
