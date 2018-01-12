@@ -1387,7 +1387,7 @@ img#wpstats {
 
 .site-header .genesis-nav-menu a {
 /*	padding: 38px 18px 10px; */
-	padding: 40px 13px 15px;
+	padding: 43px 13px 15px;
 
 }
 
@@ -2148,6 +2148,13 @@ form#gform_1 {
 .page-id-9 .entry-title {
 	display:none;
 }
+
+
+/* Header adjustments */
+.header-image .site-title a {
+	margin: 30px 0 -10px;
+}
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
