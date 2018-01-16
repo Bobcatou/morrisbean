@@ -1966,7 +1966,7 @@ p.as9100 {
 
 /*  */
 .genesis-nav-menu li a:hover{
-    color:#24479b;              /* Menu Link Color when hovered (blue)      */
+    color:#ffa53b;      /* Menu Link Color when hovered (rust)      */
 }
 .genesis-nav-menu li a:before{
     content: "";
@@ -1975,7 +1975,7 @@ p.as9100 {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #24479b;  /* Underline Color when hovered (blue)      */
+    background-color: #ffa53b;  /* Underline Color when hovered (rust)      */
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -2159,10 +2159,15 @@ form#gform_1 {
 	margin: 30px 0 -10px;
 }
 
-.post-206 h1.entry-title {
+
+/* Forms */
+.post-206 h1.entry-title, .post-214 h1.entry-title, .post-211 h1.entry-title  {
 	text-align: center;
 }
-/* Forms */
+
+section#media_image-5 {
+    margin-top: 92px;
+}
 
 
 /* Media Queries
