@@ -2030,7 +2030,7 @@ h3.quality-statement {
 section#media_image-4 {
     background: #fff;
     border: solid #535353 1px;
-    margin-top: 50px;
+    margin-top: 118px;
 
 }
 aside#genesis-sidebar-primary {
@@ -2142,7 +2142,9 @@ form#gform_1 {
 	text-align: center;
 }
 
-
+#gform_3 .gform_footer.top_label {
+	text-align: center;
+}
 /* About Page */
 
 .two-thirds.first.quality-1 {
@@ -2169,6 +2171,9 @@ section#media_image-5 {
     margin-top: 92px;
 }
 
+p.time {
+	text-align: center;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
