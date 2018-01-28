@@ -2253,6 +2253,24 @@ p.time {
 		display: none;
 	}
 
+
+/* LWM Changes */
+section#custom_html-10.widget ul > li {
+    padding: 0 0 0 20px;
+}
+
+
+.home-additional-services.widget-area {
+	padding-top: 40px;
+}
+
+
+section#media_image-3 {
+	margin-top: 50px;
+}
+.header-image .title-area, .header-image .site-title, .header-image .site-title a {
+	max-width: 190px;
+}
 }
 
 @media only screen and (max-width: 1023px) {
@@ -2327,6 +2345,9 @@ p.time {
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+
+
+
 
 }
 
@@ -2528,6 +2549,7 @@ p.time {
 .top-area {
     margin-bottom: 20px;
 }
+
 
 
 
