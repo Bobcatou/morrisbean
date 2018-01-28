@@ -2244,7 +2244,7 @@ p.time {
 	}
 
 	.site-header .genesis-nav-menu a {
-		padding: 38px 14px 40px;
+		padding: 38px 6px 40px;
 	}
 
 	.content #genesis-responsive-slider .flex-control-nav,
@@ -2523,6 +2523,13 @@ p.time {
 	.footer-widgets-1 {
 		margin: 0;
 	}
+
+/* LWM changes */
+.top-area {
+    margin-bottom: 20px;
+}
+
+
 
 }
 
