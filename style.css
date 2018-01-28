@@ -2346,8 +2346,26 @@ section#media_image-3 {
 		padding-right: 30px;
 	}
 
+/* LWM changes */
+img.image.wp-image-168.attachment-medium.size-medium {
+    width: 100%;
+}
 
+section#media_image-4 {
+	margin-top: 0;
+}
 
+.locale {
+    text-align: center;
+}
+
+section#custom_html-8 .textwidget.custom-html-widget {
+    text-align: center;
+}
+
+.footer-widgets .wrap {
+	padding-top: 40px;
+}
 
 }
 
