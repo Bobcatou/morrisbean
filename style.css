@@ -2568,6 +2568,22 @@ section#custom_html-8 .textwidget.custom-html-widget {
     margin-bottom: 20px;
 }
 
+.wpsm_tab_content.tabs img {
+    padding-top: 20px;
+}
+
+section#custom_html-10.widget ul > li {
+    padding: 0 0 0 37px;
+}
+
+.widget ul > li {
+    padding: 0 0 0 37px;
+}
+
+section#custom_html-11 {
+    padding-top: 0px;
+}
+
 
 
 
@@ -2583,6 +2599,18 @@ section#custom_html-8 .textwidget.custom-html-widget {
 	.content .entry-header .entry-meta .entry-comments-link {
 		display: none;
 	}
+
+/* LWM changes */
+
+.home-additional-services .widget {
+	float: none;
+	width: 100%;
+}
+
+/* LWM comments */
+section#custom_html-2 {
+    padding: 0 20px;
+}
 
 }
 
